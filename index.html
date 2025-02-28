@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair's AI Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem 4rem;
+            margin: 1rem 0;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        .projects, .expertise {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project, .expert {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 48%;
+            margin: 1rem 0;
+            padding: 1.5rem;
+        }
+        .project h3, .expert h3 {
+            font-size: 1.5rem;
+            color: #444;
+        }
+        .project p, .expert p {
+            font-size: 1rem;
+            color: #666;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        a {
+            text-decoration: none;
+            color: #04b4ae;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .projects, .expertise {
+                flex-direction: column;
+                align-items: center;
+            }
+            .project, .expert {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Umair's AI Portfolio</h1>
+        <p>AI Consultant | Engineer | Educator</p>
+    </header>
+
+    <section id="about">
+        <div class="section-title">About Me</div>
+        <p>Hello! I am Umair, an AI consultant and engineer with a passion for generative AI, NLP, and automation. I specialize in building advanced AI solutions for businesses, and I have experience working on cutting-edge technologies like ChatGPT, Huggingface, and AI cloud. I also provide AI training and consultancy to organizations and have worked with large institutions like UNDP and Careem.</p>
+    </section>
+
+    <section id="expertise">
+        <div class="section-title">Expertise</div>
+        <div class="expertise">
+            <div class="expert">
+                <h3>Generative AI</h3>
+                <p>Specializing in creating innovative AI systems using generative models to solve real-world problems.</p>
+            </div>
+            <div class="expert">
+                <h3>AI Automation</h3>
+                <p>Helping organizations automate tasks and workflows using AI, saving time and improving productivity.</p>
+            </div>
+            <div class="expert">
+                <h3>Natural Language Processing (NLP)</h3>
+                <p>Working on state-of-the-art NLP models for a wide range of applications, from chatbots to text analysis.</p>
+            </div>
+            <div class="expert">
+                <h3>AI Cloud</h3>
+                <p>Designing scalable AI solutions and deploying them to cloud platforms for enterprise-level applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">Projects</div>
+        <div class="projects">
+            <div class="project">
+                <h3>AI for Legal Aid</h3>
+                <p>Developed AI-powered tools to assist in legal aid services, improving efficiency and accessibility for legal support in Pakistan.</p>
+            </div>
+            <div class="project">
+                <h3>AI Chatbot for Airbnb</h3>
+                <p>Designed an intelligent chatbot that automates guest interactions, helps with bookings, and drives referrals through a reward system.</p>
+            </div>
+            <div class="project">
+                <h3>Enterprise LLM Training Program</h3>
+                <p>Created a comprehensive training program to teach organizations how to leverage large language models (LLMs) for enterprise solutions.</p>
+            </div>
+            <div class="project">
+                <h3>AI-powered Video/Audio Agents</h3>
+                <p>Built streaming AI agents for video/audio communication platforms like LiveKit and Twilio, focusing on real-time applications and automation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/umair-ai">LinkedIn</a> | Email: umair@example.com</p>
+    </footer>
+
+</body>
+</html>
