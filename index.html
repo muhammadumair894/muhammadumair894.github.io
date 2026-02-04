@@ -645,9 +645,24 @@
                                 <div>
                                     <h4 class="font-medium text-gray-700">Availability</h4>
                                     <p class="text-gray-600">Book a meeting via Google Calendar</p>
-                                    <p class="text-gray-600">
-                                        <a href="https://calendar.app.google/D3CnreDuWr148fmC9" class="text-accent hover:underline">Schedule a meeting</a>
-                                    </p>
+                                    <!-- <p class="text-gray-600">Schedule a meeting:</p>-->
+                                    <!-- Google Calendar Appointment Scheduling begin -->
+                                    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                                    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                                    <script>
+                                    (function() {
+                                      var target = document.currentScript;
+                                      window.addEventListener('load', function() {
+                                        calendar.schedulingButton.load({
+                                          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2ySihWvmtw1fbPpRNf84wkd65xqQcpJoNk_8LGPARL76HHZqkuUUeDAoRfWG6Yh9GkQeZWAmWF?gv=true',
+                                          color: '#039BE5',
+                                          label: 'Book an appointment',
+                                          target,
+                                        });
+                                      });
+                                    })();
+                                    </script>
+                                    <!-- end Google Calendar Appointment Scheduling -->
                                 </div>
                             </div>
                         </div>
